@@ -1,0 +1,11 @@
+
+INSERT INTO geographie.pays (code, nom, capitale, population, superficie)
+    VALUES ('ECU', 'Ecuador', 'Quito', 17289554, 283561);
+
+
+$stmt = $dbh->prepare($sql);
+$stmt->bindValue(':', $_POST['']);
+
+$stmt->execute();
+
+

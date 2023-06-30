@@ -1,0 +1,37 @@
+<td>
+    <form action="./modifier-pays.php" method="post">
+        <input type="hidden" name="code" value="<?= $un_pays["code"] ?>">
+        <button type="submit" class="btn btn-sm btn-info">Modifier</a>
+    </form>
+</td>
+
+
+
+<?php
+require_once "./inc/outils.php";
+
+try {
+    $sql = "SELECT * FROM pays WHERE code=:code";
+
+    $code = $_POST['code'];
+    $dbh = new PDO('mysql:host=127.0.0.1;dbname=geographie;port=3306;charset=utf8mb4', 'marco', 'polo');
+    $stmt = $dbh->prepare($sql);
+    $stmt->bindValue(':code', $code);
+    $stmt->execute();
+    $un_pays = $stmt->fetch(PDO::FETCH_ASSOC);
+    $dbh = null;
+} catch (Exception $e) {
+    $message = $e->getMessage();
+    $feedback = alerte($message, 'alert-danger');
+}
+?>
+
+
+
+UPDATE pays SET nom = 'Egypt',
+        capitale = 'Cairo',
+        population = 104635983,
+        superficie =  1010408
+    WHERE code = 'EGY';
+
+

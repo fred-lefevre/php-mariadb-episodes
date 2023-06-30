@@ -1,0 +1,23 @@
+
+INSERT INTO geographie.pays (code, nom, capitale, population, superficie)
+    VALUES ('IND', 'India', 'New Delhi', 1425775850, 3287263);
+
+
+
+function alerte($message, $classe_css) {
+    $html = "<div class=\"alert $classe_css\">";
+    $html .= $message;
+    $html .= "</div>";
+    return $html;
+}
+
+
+
+<?php
+    if (isset($feedback)) {
+        echo $feedback;
+    } else {
+?>
+<?php } ?>
+
+  

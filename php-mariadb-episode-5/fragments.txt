@@ -1,0 +1,13 @@
+
+try {
+    // Code PHP pouvant lancer une exception
+
+} catch (Exception $e) {
+    echo 'Probleme : ' . $e->getMessage();
+    exit;
+}
+
+
+INSERT INTO geographie.pays (code, nom, capitale, population, superficie)
+    VALUES ('LBR', 'Liberia', 'Monrovia', 5358483, 111370);
+

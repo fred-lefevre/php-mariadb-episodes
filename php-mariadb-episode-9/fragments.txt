@@ -1,0 +1,5 @@
+    <td>
+        <form action="./supprimer-pays-resultat.php" method="post">
+            <button type="submit" class="btn btn-sm btn-danger">Supprimer</a>
+        </form>
+    </td>

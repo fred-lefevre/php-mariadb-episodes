@@ -1,0 +1,46 @@
+
+$dbh = new PDO('mysql:host=127.0.0.1;dbname=geographie;port=3306;charset=utf8mb4', 'marco', 'polo');
+$dbh = null;
+
+
+
+
+$stmt = $dbh->query('SELECT * FROM pays');
+$les_pays = $stmt->fetchAll(PDO::FETCH_ASSOC);
+$nb_pays = count($les_pays);
+var_dump($les_pays);
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="text-center" colspan="5"><?= $nb_pays ?> pays</th>
+        </tr>
+        <tr class="table-info">
+            <th>code</th>
+            <th>nom</th>
+            <th>capitale</th>
+            <th>population</th>
+            <th>superficie</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($les_pays as $un_pays) { ?>
+            <tr>
+                <td><?= $un_pays["code"] ?></td>
+                <td><?= $un_pays["nom"] ?></td>
+                <td><?= $un_pays["capitale"] ?></td>
+                <td><?= $un_pays["population"] ?></td>
+                <td><?= $un_pays["superficie"] ?></td>
+            </tr>
+        <?php } ?>
+    </tbody>
+</table>
+
+
+
+INSERT INTO geographie.pays (code, nom, capitale, population, superficie)
+    VALUES ('ARG', 'Argentina', 'Buenos Aires', 46044703, 2780400);
+
