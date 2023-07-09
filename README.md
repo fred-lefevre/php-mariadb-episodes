@@ -15,8 +15,8 @@
 - Il y a un sous-dossier pour chaque épisode de la création du site web. Les fichiers utilisés par l'épisode numéro N sont contenus dans le sous-dossier `php-mariadb-episode-N`.
 
 - Le premier épisode consiste en la création de :
-    - Une base de données nommée `geo`. Cette base est gérée par un serveur MariaDB (ou MySQL)
-    - Un compte utilisateur nommé `marco`. Ce compte a tous les privilèges pour travailler sur la base de données `geo`.
+    - Une base de données nommée `geographie`. Cette base est gérée par un serveur MariaDB (ou MySQL)
+    - Un compte utilisateur nommé `marco`. Ce compte a tous les privilèges pour travailler sur la base de données `geographie`.
     
 - Les épisodes suivants consistent en l'amélioration progressive du site web. A chaque épisode, il y a soit l'ajout d'une fonctionnalité, comme par exemple "afficher la liste de tous les pays", soit l'amélioration du code, comme par exemple "mutualiser du code PHP avec require_once".
 
