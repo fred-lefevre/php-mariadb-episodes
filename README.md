@@ -12,6 +12,7 @@
 
 - Cette playlist décrit, épisode par épisode, la création d'un site web dynamique. Les langages utilisés sont HTML, CSS, PHP et SQL. La base de données est à hébergée sur un SGBDR (serveur de gestion de base de données relationnelles) MariaDB ou MySQL.
 
+- Le fichier `PHP-et-MariaDB-MySQL.pdf` contient les URL des vidéos de chaque épisode.
 
 ## 👀 Les épisodes
 - Chaque épisode est une étape de  l'amélioration progressive du site web. 
@@ -69,7 +70,7 @@ On suppose que le chemin absolu de l'interpréteur PHP est `C:\xampp\php\php.exe
 
 Dans une fenêtre de commande, exécutez `C:\xampp\php\php.exe preparer-episode.php` et répondez aux questions.
 
-Voici une trace d'installation de l'épisode 5 dans laquelle on fournit la réponse `5` à la question `Quel est le numéro de l'épisode ?` et ou on fournit le mot de passe du compte d'administration du serveur de bases de données lors de la question `Enter password:` :
+Voici une trace d'installation de l'épisode 5 dans laquelle on fournit la réponse `5` à la question `Quel est le numéro de l'épisode ?` et le mot de passe du compte d'administration du serveur de bases de données en réponse à de la question `Enter password:` :
 ```
 Script de préparation d'un épisode de PHP-MariaDB
 => Interprétation du fichier de configuration
