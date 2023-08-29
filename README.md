@@ -10,7 +10,7 @@
 
 - Ce dépôt contient tous les fichiers utilisés dans la playlist YouTube "PHP et MariaDB / MySQL" dont l'URL est https://www.youtube.com/watch?v=jJOV4eVzdGU&list=PLQsTrO2pHmL7zCuVhsgWA5oCanRwQqUy1
 
-- Cette playlist décrit, épisode par épisode, la création d'un site web dynamique. Les langages utilisés sont HTML, CSS, PHP et SQL. La base de données est à hébergée sur un SGBDR (serveur de gestion de base de données relationnelles) MariaDB ou MySQL.
+- Cette playlist décrit, épisode par épisode, la création d'un site web dynamique. Les langages utilisés sont HTML, CSS, PHP et SQL. La base de données est à héberger sur un SGBDR (serveur de gestion de base de données relationnelles) MariaDB ou MySQL.
 
 - Le fichier `PHP-et-MariaDB-MySQL.pdf` contient les URL des vidéos de chaque épisode.
 
