@@ -8,7 +8,8 @@
 
 - Tout le code est fourni dans le présent dépôt `GitHub` et toutes les explications associées sont fournies dans `YouTube`.
 
-- Ce dépôt contient tous les fichiers utilisés dans la playlist YouTube "PHP et MariaDB / MySQL" dont l'URL est https://www.youtube.com/watch?v=jJOV4eVzdGU&list=PLQsTrO2pHmL7zCuVhsgWA5oCanRwQqUy1
+- Ce dépôt contient tous les fichiers utilisés dans la playlist YouTube "PHP et MariaDB / MySQL" dont l'URL est 
+[https://www.youtube.com/watch?v=jJOV4eVzdGU&list=PLQsTrO2pHmL7zCuVhsgWA5oCanRwQqUy1](https://www.youtube.com/watch?v=jJOV4eVzdGU&list=PLQsTrO2pHmL7zCuVhsgWA5oCanRwQqUy1)
 
 - Cette playlist décrit, épisode par épisode, la création d'un site web dynamique. Les langages utilisés sont HTML, CSS, PHP et SQL. La base de données est à héberger sur un SGBDR (serveur de gestion de base de données relationnelles) MariaDB ou MySQL.
 
@@ -75,13 +76,13 @@ Voici une trace d'installation de l'épisode 5 dans laquelle on fournit la répo
 Script de préparation d'un épisode de PHP-MariaDB
 => Interprétation du fichier de configuration
 => Version du client du serveur de base de données :
-C:/xampp/mysql/bin/mysql.exe  Ver 15.1 Distrib 10.4.24-MariaDB, for Win64 (AMD64), source revision b4477ae73c836592268f7fb231eeb38a4fa83bb6
+C:/xampp/mysql/bin/mysql.exe  Ver 15.1 Distrib 10.4.32-MariaDB, for Win64 (AMD64), source revision c4143f909528e3fab0677a28631d10389354c491
 => Quel est le numéro de l'épisode ? 5
 => Le dossier contenant le code est php-mariadb-episode-5
 => Le fichier contenant le code SQL est bd/php-mariadb-episode-5.sql
 => Fichier bd/php-mariadb-episode-5.sql
 Mot de passe du compte root :
-Enter password: *************************
+Enter password: *********
 Le schéma de la base de données 'geographie' est préparé.
 Les données sont insérées dans la base 'geographie'.
 Les accès à la base 'geographie' sont préparés.
@@ -89,6 +90,7 @@ Les accès à la base 'geographie' sont préparés.
 Création du dossier vide C:/xampp.htdocs/geo
 Le code est copié dans le dossier C:/xampp.htdocs/geo
 => Fin de la préparation de l'épisode 5
+Avec une installation locale, l'URL de la page d'accueil est : http://127.0.0.1/geo
 ```
 
 Pour installer la situation d'un autre épisode, on relance la même commande, à savoir `C:\xampp\php\php.exe preparer-episode.php`

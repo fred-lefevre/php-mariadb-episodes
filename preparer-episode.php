@@ -86,3 +86,5 @@ if (!copier_dossier($dossier_code, $dossier_cible)) {
 echo "Le code est copié dans le dossier $dossier_cible" . PHP_EOL;
 
 echo "=> Fin de la préparation de l'épisode $num_episode" . PHP_EOL;
+
+echo "Avec une installation locale, l'URL de la page d'accueil est : http://127.0.0.1/geo" . PHP_EOL;
